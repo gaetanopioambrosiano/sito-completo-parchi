@@ -1,0 +1,179 @@
+body {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #ffffff;
+    color: #222;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 16px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.contenitore {
+  max-width: 1000px; 
+  align-items: center;
+}
+
+.info {
+  position: relative;
+  align-items: center;
+}
+
+.hero-testo {
+  position: absolute;
+  background-color: rgba(93, 93, 93, 0.301);
+  font-size: 42px;
+  color:#fff;
+  width: 1400px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  height: 600px;
+  width: 1400px;
+  object-fit: cover;
+}
+
+.nav-centrale ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.nav-centrale a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-destra a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+.hero {
+  align-items: center;
+  padding: 30px ;
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+}
+ 
+  .prg h2 {
+    font-size: 20px;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  .prg p {
+    font-size: 16px;
+    text-align: left;
+    padding: 30px;
+  }
+  .arcipelago {
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .blocco {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .invertito {
+    flex-direction: row-reverse;
+  }
+  
+  .testo {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .testo h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .testo p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  .immagine {
+    flex: 1;
+    min-width: 300px;
+    padding-bottom: 30px;
+  }
+  
+  .immagine img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background: #329B46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  
+  .footerinfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    text-align: center;
+  }
+  
+  .footerinfo h4 {
+    font-size: 26px;
+    color: #ffffff;
+  }
+  
+  .footerinfo ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .footerinfo li {
+    margin-bottom: 8px;
+    text-align: center;
+
+  }
+  
+  .footerinfo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footerinfo a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 24px;
+    color: #c9c9c9;
+  } 

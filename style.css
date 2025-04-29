@@ -1,0 +1,250 @@
+   body {
+      font-family: "Volkhov", serif;
+      font-weight: 400;
+      font-style: normal;
+      background: #ffffff;
+      color: #222;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 16px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+
+.contenitore {
+	max-width: 1000px; 
+	align-items: center;
+}
+
+.info {
+    position: relative;
+    align-items: center;
+}
+
+.testo {
+    position: absolute;
+    background-color: rgba(93, 93, 93, 0.301);
+    font-size: 42px;
+    color:#fff;
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 600px;
+    width: 1400px;
+    object-fit: cover;
+}
+  
+  .nav-centrale ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .nav-centrale a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-destra a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+  }
+  
+  
+  .hero {
+    align-items: center;
+    padding: 30px ;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+  }
+  .prg h2 {
+    font-size: 40px;
+    padding: 30px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .prg p {
+    font-size: 32px;
+    text-align: left;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .parchi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 96px 16px;
+    text-align: center;
+  }
+  
+  .parco img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .parco h3 {
+    margin-top: 10px;
+    color: #00695c;
+    font-size: 32px;
+  }
+  
+  .sezione-attivita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 96px 0;
+    background: #ffffff;
+  }
+  
+  .colonna-testo {
+    flex: 1;
+    padding-left: 64px;
+  }
+  
+  .colonna-testo p {
+    font-size: 28px;
+    line-height: 1.5;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    max-width: 600px;
+  }
+  
+  .btn-svg img {
+    height: 64px;
+    width: auto;
+  }
+  
+  .colonna-immagine {
+    flex: 1;
+    padding-right: 64px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .colonna-immagine img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background: #329B46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  
+  .footerinfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    text-align: center;
+  }
+  
+  .footerinfo h4 {
+    font-size: 26px;
+    color: #ffffff;
+  }
+  
+  .footerinfo ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .footerinfo li {
+    margin-bottom: 8px;
+    text-align: center;
+
+  }
+  
+  .footerinfo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footerinfo a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 24px;
+    color: #c9c9c9;
+  } 
+
+
+@media screen and (max-width:600px) {
+   .header {
+    flex-direction:column;
+    gap: 20px;
+    padding: 20px;
+}
+  .hero {
+    padding: 60px 20px;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+  }
+.prg h2{
+  font-size: 28px;
+  text-align: center;
+  padding: 60px 20px;
+}
+.prg p {
+  font-size: 24px;
+  text-align: center;
+  padding: 60px 20px;
+}
+  .parchi {
+  grid-template-columns: 1fr;
+  padding: 60px 20px;
+}
+  
+  .sezione-attivita {
+    padding: 20px;
+    flex-direction: column;
+
+  }
+  .colonna-immagine{
+    padding: 20px;
+    flex-direction: column;
+
+  }
+
+
+}
+
+
+  
+   
+ 

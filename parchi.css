@@ -1,0 +1,194 @@
+body {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #ffffff;
+    color: #222;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 16px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.contenitore {
+	max-width: 1000px; 
+	align-items: center;
+}
+
+.info {
+    position: relative;
+    align-items: center;
+}
+
+.testo {
+    position: absolute;
+    background-color: rgba(93, 93, 93, 0.301);
+    font-size: 42px;
+    color:#fff;
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 600px;
+    width: 1400px;
+    object-fit: cover;
+}
+  
+  .nav-centrale ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .nav-centrale a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-destra a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+  }
+
+  .hero {
+    align-items: center;
+    padding: 30px ;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+  }
+  .parchi-principali h2 {
+    padding: 30px;
+    font-size: 28px;
+  }
+
+  .griglia-principale {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 30px;
+    gap: 40px 20px;
+  }
+  
+  .parco-principale {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+  
+  .griglia-principale img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .testo-griglia {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .altri-parchi {
+    padding: 60px 30px;
+  }
+  
+  .altri-parchi h4 {
+    font-size: 28px;
+    color: #111;
+  }
+  
+  .griglia-parchi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+  }
+  
+  .parco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .parco img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .nome-parco {
+    background-color: #e0e0e0;
+    color: #111;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  footer {
+    background: #329B46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  
+  .footerinfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;
+    text-align: center;
+  }
+  
+  .footerinfo h4 {
+    font-size: 26px;
+    color: #ffffff;
+  }
+  
+  .footerinfo ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .footerinfo li {
+    margin-bottom: 8px;
+    text-align: center;
+
+  }
+  
+  .footerinfo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footerinfo a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 24px;
+    color: #c9c9c9;
+  } 
