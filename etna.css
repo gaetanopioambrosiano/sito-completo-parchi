@@ -1,9 +1,13 @@
-body {
-    font-family: "Volkhov", serif;
-    font-weight: 400;
-    font-style: normal;
-    background: #ffffff;
-    color: #222;
+ .volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  .volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .header {
@@ -12,34 +16,6 @@ body {
   justify-content: space-between;
   padding: 32px 16px;
   max-width: 100%;
-  object-fit: cover;
-}
-
-.contenitore {
-  max-width: 1000px; 
-  align-items: center;
-}
-
-.info {
-  position: relative;
-  align-items: center;
-}
-
-.hero-testo {
-  position: absolute;
-  background-color: rgba(93, 93, 93, 0.301);
-  font-size: 42px;
-  color:#fff;
-  width: 1400px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-image img {
-  height: 600px;
-  width: 1400px;
   object-fit: cover;
 }
 
@@ -53,7 +29,6 @@ body {
 }
 
 .nav-centrale a {
-  text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -65,25 +40,58 @@ body {
   color: black;
   font-size: 18px;
 }
-.hero {
-  align-items: center;
-  padding: 30px ;
-  max-width: 1000px;
-  width: 100%;
-  height: 100%;
-}
- 
-  .prg h2 {
-    font-size: 20px;
-    padding: 30px;
-    text-align: left;
+ .hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
   }
   
-  .prg p {
-    font-size: 16px;
-    text-align: left;
-    padding: 30px;
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
+  
+  .hero-testo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    background-color: rgba(93, 93, 93, 0.3);
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .prg {
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.prg h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.prg p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+
   .etna {
     padding: 60px 30px;
     display: flex;
@@ -97,7 +105,6 @@ body {
     gap: 30px;
     flex-wrap: wrap;
   }
-  
   
   .invertito {
     flex-direction: row-reverse;
@@ -116,7 +123,7 @@ body {
   .testo p {
     margin-bottom: 10px;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .immagine {
@@ -176,3 +183,77 @@ body {
     font-size: 24px;
     color: #c9c9c9;
   } 
+
+   @media (max-width: 600px) {
+  
+    .hero {
+      height: auto;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+  
+    .hero-testo {
+      background-color: transparent;
+      font-size: 20px;
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+  
+    .header {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      align-items: center;
+    }
+  
+    .nav-centrale ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-destra {
+      margin-top: 10px;
+    }
+
+    .prg h2{
+      font-size: 20px;
+    }
+
+
+    .prg p{
+      font-size: 16px;
+    }
+    
+    .testo h2{
+      font-size: 20px;
+    }
+
+    .testo p{
+      font-size: 16px;
+    }
+
+    .footerinfo {
+      flex-direction: column;
+      gap: 10px;
+      padding: 30px 20px;
+      text-align: center;
+    }
+  
+    .footerinfo ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+     .footer p {
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  }    
