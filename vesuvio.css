@@ -211,18 +211,19 @@
   
     .header {
       flex-direction: column;
-      gap: 10px;
+      gap: 30px;
       padding: 20px;
       align-items: center;
     }
   
     .nav-centrale ul {
-      flex-direction: column;
-      gap: 10px;
+      align-items: center;
+      gap: 50px;
     }
   
     .nav-destra {
       margin-top: 10px;
+       align-items: center;
     }
 
     .prg h2{

@@ -1,10 +1,10 @@
- .volkhov-regular {
+.volkhov-regular {
   font-family: "Volkhov", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-  .volkhov-bold {
+.volkhov-bold {
   font-family: "Volkhov", serif;
   font-weight: 700;
   font-style: normal;
@@ -40,21 +40,22 @@
   color: black;
   font-size: 18px;
 }
- .hero {
+
+.hero {
     position: relative;
     width: 100%;
     height: 600px;
     overflow: hidden;
   }
   
-  .hero-image img {
+.hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
   
-  .hero-testo {
+.hero-testo {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,9 +73,9 @@
     box-sizing: border-box;
   }
 
-  .prg {
-  padding: 40px 20px;
-  margin: 0 auto;
+.prg {
+   padding: 40px 20px;
+   margin: 0 auto;
 }
 
 .prg h2 {
@@ -92,99 +93,97 @@
 }
 
 
-  .etna {
+.etna {
     padding: 60px 30px;
     display: flex;
     flex-direction: column;
     gap: 60px;
   }
   
-  .blocco {
+.blocco {
     display: flex;
     align-items: flex-start;
     gap: 30px;
     flex-wrap: wrap;
   }
   
-  .invertito {
+.invertito {
     flex-direction: row-reverse;
   }
   
-  .testo {
+.testo {
     flex: 1;
     min-width: 300px;
   }
   
-  .testo h2 {
+.testo h2 {
     font-size: 24px;
     margin-bottom: 15px;
   }
   
-  .testo p {
+.testo p {
     margin-bottom: 10px;
     line-height: 1.5;
     font-size: 20px;
   }
   
-  .immagine {
+.immagine {
     flex: 1;
     min-width: 300px;
   }
   
-  .immagine img {
+.immagine img {
     width: 100%;
     height: auto;
   }
   
-  footer {
+ footer {
     background: #329B46;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-   
   }
   
-  .footerinfo {
+.footerinfo {
     display: flex;
     justify-content: space-between;
     gap: 400px;
     text-align: center;
   }
   
-  .footerinfo h4 {
+.footerinfo h4 {
     font-size: 26px;
     color: #ffffff;
   }
   
-  .footerinfo ul {
+.footerinfo ul {
     list-style: none;
     text-align: center;
   }
   
-  .footerinfo li {
+.footerinfo li {
     margin-bottom: 8px;
     text-align: center;
 
   }
   
-  .footerinfo a {
+.footerinfo a {
     text-decoration: none;
     color: #ffffff;
     text-align: center;
   }
   
-  .footerinfo a:hover {
+.footerinfo a:hover {
     text-decoration: underline;
   }
   
-  footer p {
+footer p {
     text-align: center;
     font-size: 24px;
     color: #c9c9c9;
   } 
 
-   @media (max-width: 600px) {
+  @media (max-width: 600px) {
   
     .hero {
       height: auto;
@@ -206,21 +205,22 @@
       padding: 20px;
       color: white;
     }
-  
+   
     .header {
       flex-direction: column;
-      gap: 10px;
+      gap: 30px;
       padding: 20px;
       align-items: center;
     }
   
     .nav-centrale ul {
-      flex-direction: column;
-      gap: 10px;
+      align-items: center;
+      gap: 50px;
     }
   
     .nav-destra {
       margin-top: 10px;
+       align-items: center;
     }
 
     .prg h2{
